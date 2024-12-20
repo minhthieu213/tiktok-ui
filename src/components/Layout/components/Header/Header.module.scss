@@ -15,7 +15,11 @@
 }
 
 .logo{
+    user-select: none;
+}
 
+.search-result{
+    width: 361px;
 }
 
 .search{
@@ -73,4 +77,11 @@
     &:hover{
         cursor: pointer;
     }
+}
+
+.search-title{
+    padding: 0 16px;
+    font-size: 1.2rem;
+    color: rgba(22, 24, 35, 0.5);
+    padding: 5px 12px;
 }
