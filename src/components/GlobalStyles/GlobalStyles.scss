@@ -4,9 +4,15 @@
 
 :root{
     --primary-color: #f9f9f9;
+
+    //Default Layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
 }
 
 html{
+    margin: 0;
+    padding: 0;
     font-size: 62.5%;
 }
 
