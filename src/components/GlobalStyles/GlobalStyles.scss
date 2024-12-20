@@ -3,7 +3,8 @@
 
 
 :root{
-    --primary-color: #f9f9f9;
+    --primary-color: #FE2C55;
+    --black: black;
 
     //Default Layout
     --default-layout-header-height: 60px;
@@ -21,4 +22,9 @@ body{
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
+}
+
+button, input, [tabindex]{
+    outline: none;
+    border: none;
 }
