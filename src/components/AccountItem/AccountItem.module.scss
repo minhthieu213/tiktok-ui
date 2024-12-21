@@ -1,6 +1,4 @@
-p, span{
-    margin: 0;
-}
+
 
 .AccountItem{
     display: flex;
@@ -11,6 +9,9 @@ p, span{
     &:hover{
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0.05);
+    }
+    p{
+        margin: 0;
     }
 }
 
